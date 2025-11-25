@@ -1,0 +1,8 @@
+---
+- name: Configuration des serveurs WordPress
+  hosts: wordpress_servers
+  gather_facts: yes
+  become: true
+  roles:
+    #    - docker_server
+    - cloud-1
