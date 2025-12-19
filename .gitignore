@@ -1,6 +1,13 @@
-# Vault password file
+# Secrets
+.env
+*.pem
+*.key
 ansible/.vault_pass
 ansible/inventory.ini
+
+# Docker Data
+db_data/
+wp_data/
 
 # Python
 venv/
@@ -8,9 +15,7 @@ venv/
 __pycache__/
 *.pyc
 
-# IDE
+# IDE & OS
 .vscode/
 .idea/
-
-# OS
 .DS_Store
